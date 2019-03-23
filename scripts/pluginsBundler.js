@@ -10,3 +10,8 @@ $(document).on('ready', function() {
 
 //config date-time picker
 $('#datetimepicker').datetimepicker();
+
+//config sakura
+$(window).load(function(){
+    $('body').sakura();
+});
