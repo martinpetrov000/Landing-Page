@@ -7,3 +7,6 @@ $(document).on('ready', function() {
     slidesToScroll: 4
     });
 });
+
+//config date-time picker
+$('#datetimepicker').datetimepicker();
